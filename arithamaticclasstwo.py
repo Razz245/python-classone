@@ -103,3 +103,14 @@ len(str(50))  # Length of string representation of number
 (50 > 30 and 30 < 20)       # Logical AND
 (50 > 30 or 30 < 20)        # Logical OR
 (not(50 > 30))              # Logical NOT
+
+
+print(bin(50))       # '0b110010'
+print(format(50,'b')) # '110010'
+
+print(oct(50))       # '0o62'
+print(format(50,'o')) # '62'
+
+print(hex(50))       # '0x32'
+print(format(50,'x')) # '32'
+print(int('110010',2)) # 50

@@ -53,6 +53,31 @@ print("\n")
 
 # End of Class Seven
 
+
+#Conditinal Statements Practice
+
+def drink(money):
+    if money >= 50:
+        return "You can buy a drink."
+    else:
+        return ("You cannot buy a drink.")
+print(drink(60))
+print(drink(30))
+
+def alcohol(age, money):
+    if(age >= 18) and (money >= 50):
+        return "You can buy alcohol."
+    elif(age >= 18) and (money < 50):
+        return "Come back with more money."
+    elif(age < 18) and (money >= 50):
+        return "You are underage."
+    else:
+        return "You are underage and have no money."
+print(alcohol(20, 60))
+print(alcohol(20, 30))
+print(alcohol(16, 60))
+print(alcohol(16, 30))
+
 print("Class Seven: Conditional Statements Practice")
 print("---")
 
